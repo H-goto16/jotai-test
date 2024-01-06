@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/node_modules": false
+  },
+  "editor.tabSize": 2,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports": "explicit",
+    "source.fixAll": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+}
